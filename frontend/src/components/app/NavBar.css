@@ -1,0 +1,40 @@
+.navbar-container {
+  background-color: #333;
+}
+
+/* Style for the navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+/* Style for the navigation menu */
+.nav-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+/* Style for navigation items */
+.nav-item {
+  margin-right: 10px;
+}
+
+/* Style for navigation links */
+.nav-link {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+/* Style for navigation links on hover */
+.nav-link:hover {
+  background-color: #555;
+  transition: background-color 0.3s ease;
+}
